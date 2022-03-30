@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First website</title>
+    <Style>
+        body{
+        background-image: url('images/');
+        padding: 25px;
+        background-repeat: no-repeat;
+        background-size: 100% 130%;
+        }
+    </Style>
+
+</head>
+<body>
+    <h1 style="text-align : center">Hello Everyone! Are you interested in playing games..... </h1>
+    <h1 style="text-align: center;"> Let's Have a look</h1>
+
+    <script>
+        window.onload = function() {
+          var c = document.getElementById("myCanvas");
+          var ctx = c.getContext("2d");
+          var img = document.getElementById("idle.png");
+          ctx.drawImage(img, 10, 10);
+        }
+        </script>
+
+   <canvas id = "myCanvas" width = "500px" height = "500px"></canvas>
+   <button id = "kick">Kick (Left Arrow Key)</button>
+   <button id = "punch">Punch (Right Arrow Key)</button>
+   <button id = "backward">Backward (Down Arrow Key)</button>
+   <button id = "forward">Forward (Up Arrow Key)</button>
+   <button id = "block">Block (Space)</button>
+    <br><br>
+
+   <h1 style="text-align : center">Hey! Are you hungry........  Visit our website and explore with food </h1>
+   <h1 style="text-align : center"><a  href = "main.html">familyrestaurant.com</a></h1>
+</body>
+<script type = "text/javascript" src="/main.js"></script>
+</html>
